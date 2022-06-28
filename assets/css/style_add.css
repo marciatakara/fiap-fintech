@@ -1,0 +1,68 @@
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    text-align: center; 
+    background-color: #100DBF;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-toggler{
+    border-style: none;
+}
+
+.navbar-toggler-icon {
+    border-style: double;
+    color: white;
+}
+
+.navbar-brand{
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-link{
+    color:black !important;
+}
+
+
+.add_button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #100DBF;
+    color: white;
+    border-style: none;
+    border-radius:5%;
+    font-size:x-large
+}
+
+.btn-group {
+    border-radius: 5%;
+}
+
+.btn {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: #adacac;
+    color: white;
+    font-size: x-large;
+}
+
+
+.active {
+    background-color: #09bdd6 !important;
+}
