@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F1B2FF5-9764-0E6B-BD9B-8E557BC36C95" name="T_TELEFONE">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 13:28:14 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_telefone_completo" id="F5948B06-6568-D158-9EA2-1D5107E98B04">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 15:45:55 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_telefone" id="2A1A91F7-D82E-0C12-10C8-FDB79E0D9C5A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:48:19 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="C9D09415-6332-9AD4-0E78-ACA25D166089">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-14 19:47:48 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="B027CC9A-5695-5B92-B3F2-A50052D0B94D">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-14 19:48:01 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="D7CFFA80-6099-CBB0-004A-3A0A9A38B53A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-14 19:48:57 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F25859E-B776-81A5-AC4C-725FA52D4114" name="T_TELEFONE PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 13:31:59 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5948B06-6568-D158-9EA2-1D5107E98B04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

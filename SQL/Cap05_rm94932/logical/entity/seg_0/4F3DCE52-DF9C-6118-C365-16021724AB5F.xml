@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F3DCE52-DF9C-6118-C365-16021724AB5F" name="T_ENDERECO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 18:05:04 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_endereco_completo" id="F294D415-D324-B5B8-C6F9-6A8BA8EA1B50">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:18:10 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_endereço" id="8683BF0F-F80B-F759-20D6-E9BA1B95ADC5">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:13:37 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="C6833B9D-7190-194F-A24F-7A71B1F73D2A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 18:08:04 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="0E062230-FFE8-212D-C57D-DCABDE80F9DB">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 18:18:14 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_bairro" id="FFE7BB72-9C9D-B949-CD6D-25B57F04097A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:42:37 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cidade" id="EA173EF7-E5ED-9EF2-0920-1C92C70E2589">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:42:54 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_estado" id="8DC6A7C7-1505-83F1-01ED-27E47B13F052">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:42:49 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_pais" id="31DA9C1D-F421-F472-4DFD-D53551EEF622">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 22:43:02 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E1A498B-F058-8211-82E3-6FE0792EBF78" name="T_ENDERECO PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 18:08:15 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F294D415-D324-B5B8-C6F9-6A8BA8EA1B50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

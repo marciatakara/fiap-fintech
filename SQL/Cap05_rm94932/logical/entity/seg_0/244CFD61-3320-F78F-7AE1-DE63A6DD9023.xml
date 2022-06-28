@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="244CFD61-3320-F78F-7AE1-DE63A6DD9023" name="T_CONTATO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 13:24:48 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="787B2181-6E2D-714E-1142-A9DD81DAF3DB">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 20:40:47 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="CBC21D72-CFE8-E4BD-A077-29A1F03E8633">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 13:26:02 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D8B0585-39DA-B719-1D1A-13F2E2ED8987" name="T_CONTATO PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-13 13:27:36 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>787B2181-6E2D-714E-1142-A9DD81DAF3DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59C9A14A-8192-56BC-CCD0-BDE18727800D" name="T_TELEFONE_CONTATO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-16 16:07:35 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="DDB3FED8-AF08-2280-9B84-803AA583B103">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-16 16:08:56 UTC</createdTime>
+<generatorID>3B2EF26E-AB18-AF38-3D48-392572E7E8D9</generatorID>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<referedAttribute>787B2181-6E2D-714E-1142-A9DD81DAF3DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone_completo" id="BFFAB61E-2F7F-406C-4EB0-57873CA6E27A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-16 16:09:05 UTC</createdTime>
+<generatorID>3142BA0D-C3CF-9536-BAA7-E99641047E55</generatorID>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<referedAttribute>F5948B06-6568-D158-9EA2-1D5107E98B04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29CDF763-6584-5523-7796-4138058DD257" name="T_TELEFONE_CONTATO PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-16 16:08:59 UTC</createdTime>
+<ownerDesignName>Cap05_rm94932</ownerDesignName>
+<engineerTo>
+<item key="12B7F4FC-8A56-9FC2-AA8E-630FE3693DF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDB3FED8-AF08-2280-9B84-803AA583B103</attributeRef>
+<attributeRef>BFFAB61E-2F7F-406C-4EB0-57873CA6E27A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
