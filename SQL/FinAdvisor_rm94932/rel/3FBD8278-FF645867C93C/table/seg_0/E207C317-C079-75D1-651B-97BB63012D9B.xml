@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E207C317-C079-75D1-651B-97BB63012D9B" name="T_USUARIO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>9080AEDB-B7A7-0168-9AF1-C30FBC3A8688</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="065C1B21-427D-1F58-DE95-3C01D98DC1C8">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>90C9EC96-2644-E18F-8380-30DE98C444C9</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="ED23EABE-BF11-92AF-F77D-FF99D3169024">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>6D587809-5652-247D-E6A3-FCAB2FCE6C44</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="57558843-95D6-4684-004E-3DBFCDA0EDD5">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>866F090C-FEC5-8523-8B45-332D32868F0C</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_dica_senha" id="624D3F81-8885-D798-C2F7-6676DA1B333E">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>B4E2A5D5-7812-F9CB-84D2-19C052E31E8A</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80080AC8-6729-F132-0592-8181D8D2C90F" name="T_USUARIO_PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>B52615D2-B4E5-74E0-9CF2-A80DF4CA13F3</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="065C1B21-427D-1F58-DE95-3C01D98DC1C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

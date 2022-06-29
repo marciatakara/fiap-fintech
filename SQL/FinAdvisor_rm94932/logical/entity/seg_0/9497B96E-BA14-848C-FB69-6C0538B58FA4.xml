@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9497B96E-BA14-848C-FB69-6C0538B58FA4" name="T_OPERACAO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:58:45 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>54571D5D-BDD4-02A0-8310-8FA4E472CD04</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_operacao" id="E75A6699-BF8B-5892-F9B1-944ADFC850F5">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:58:56 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_operacao" id="E18BD525-ED38-A2DF-1139-087349FBC358">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:59:04 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_operacao" id="A5998442-0A92-962B-1074-06675CCEB177">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:59:35 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_oper" id="54571D5D-BDD4-02A0-8310-8FA4E472CD04">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:19:56 UTC</createdTime>
+<generatorID>F7B2C1E6-12E9-1050-8B38-17B406AFD076</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<referedAttribute>F6D9F51A-CEDC-F375-9C06-D87D490FF04B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_operacao" id="7D787B1D-483F-11D5-9F5A-26321C0541CB">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 15:01:32 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3AF4DC5-3481-9B62-93CC-9F6BA6DE65A9" name="T_OPERACAO PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:01:51 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E75A6699-BF8B-5892-F9B1-944ADFC850F5</newElementsIDs>
+<usedAttributes>
+<attributeRef>E75A6699-BF8B-5892-F9B1-944ADFC850F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

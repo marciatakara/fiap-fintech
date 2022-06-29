@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9FAFA7C-6B2D-FF7A-5781-04DB98ED0A67" name="T_BANCO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>3BFD7FEC-084F-66C2-77E4-624B24ED9A28</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_banco" id="3C8EE8B5-FB6A-266B-13B9-247C52A60C41">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>025C79CE-6518-D7A9-6208-221AFD417E2B</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_banco" id="3293410F-3C3C-C39E-F822-F60AFB2CE793">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>92AAE681-F314-7871-A61F-59A3EF1C8C01</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="638BA524-9FA3-CC94-014B-70CC46AA8CF6" name="T_BANCO_PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>00D94CBE-1BCA-9C5D-1532-2A8A59DBC1D7</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C8EE8B5-FB6A-266B-13B9-247C52A60C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

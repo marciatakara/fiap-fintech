@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5602846-0C5D-F55E-DCDA-916E9FE823DF" name="T_CATEG_GASTO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>18F507EF-93E0-9DF9-2729-DEB385A2BDB1</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categ_gasto" id="D530CFA4-096E-8F22-AEDB-A0C69B767A88">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>AC8EE7B8-0FB9-56FC-BEFD-16AE0625BB37</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categ_gasto" id="93DA1058-9323-61E7-5208-8C532B181FD7">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>475C29A7-A244-8F98-7AD8-6EF89FA421F1</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="115D259F-F8CD-D41F-C8C4-BE78DE0909F2" name="T_CATEG_GASTO_PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>082FDE6C-CB48-E721-141B-4C69BC8B26CA</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D530CFA4-096E-8F22-AEDB-A0C69B767A88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

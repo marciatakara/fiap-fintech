@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18F507EF-93E0-9DF9-2729-DEB385A2BDB1" name="T_CATEG_GASTO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:24:39 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categ_gasto" id="AC8EE7B8-0FB9-56FC-BEFD-16AE0625BB37">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:25:15 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_categ_gasto" id="475C29A7-A244-8F98-7AD8-6EF89FA421F1">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:25:25 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="082FDE6C-CB48-E721-141B-4C69BC8B26CA" name="T_CATEG_GASTO PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:26:01 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AC8EE7B8-0FB9-56FC-BEFD-16AE0625BB37</newElementsIDs>
+<usedAttributes>
+<attributeRef>AC8EE7B8-0FB9-56FC-BEFD-16AE0625BB37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

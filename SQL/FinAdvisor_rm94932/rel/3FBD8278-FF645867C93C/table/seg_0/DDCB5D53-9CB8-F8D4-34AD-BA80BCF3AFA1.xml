@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDCB5D53-9CB8-F8D4-34AD-BA80BCF3AFA1" name="T_CATEG_INVEST">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>EEEA6D52-FEDA-B443-AFD8-0AA537E6FF51</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categ_invest" id="45282B67-443A-1A33-7916-641815642925">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>F1CB6DD6-9DD2-64C6-1723-7F6C3E955E5F</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categ_invest" id="A1D69703-2082-6079-811F-C0DFC9BA4BFE">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>7D6C5DD1-E3E7-1FCE-6EEE-35DEA2198FA1</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C68BFD3C-A577-F80D-4922-152341A9A16C" name="T_CATEG_INVEST_PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>ED81E528-4C3A-0430-5988-8E703102001C</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45282B67-443A-1A33-7916-641815642925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

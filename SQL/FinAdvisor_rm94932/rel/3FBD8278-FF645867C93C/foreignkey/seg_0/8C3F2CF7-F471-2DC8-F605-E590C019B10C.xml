@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C3F2CF7-F471-2DC8-F605-E590C019B10C" containerWithKeyObject="C2540C54-8449-C339-25C8-0B22E8BAB31D" localFKIndex="EC37EC27-9CA2-8438-D714-049772E611F3" name="T_GASTO_T_OPERACAO_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>A2EDF5E3-DDC7-B849-FDBC-462D7678A780</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<referredTableLongName>T_OPERACAO</referredTableLongName>
+<arc>D0F342D6-0113-3E09-A55E-0E8435592F28</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15C7EE6C-F37A-4B19-4093-548692EF0BAF</referredTableID>
+<keyObject>EE04432C-EA99-C0DA-C453-699FEBC50FB8</keyObject>
+<referredKeyID>EE04432C-EA99-C0DA-C453-699FEBC50FB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_operacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>2</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEEA6D52-FEDA-B443-AFD8-0AA537E6FF51" name="T_CATEG_INVEST">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:26:31 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categ_invest" id="F1CB6DD6-9DD2-64C6-1723-7F6C3E955E5F">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:26:49 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_categ_invest" id="7D6C5DD1-E3E7-1FCE-6EEE-35DEA2198FA1">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:27:04 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED81E528-4C3A-0430-5988-8E703102001C" name="T_CATEG_INVEST PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:28:15 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F1CB6DD6-9DD2-64C6-1723-7F6C3E955E5F</newElementsIDs>
+<usedAttributes>
+<attributeRef>F1CB6DD6-9DD2-64C6-1723-7F6C3E955E5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

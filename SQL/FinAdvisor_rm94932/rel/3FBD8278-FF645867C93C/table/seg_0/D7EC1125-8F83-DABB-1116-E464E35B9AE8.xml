@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7EC1125-8F83-DABB-1116-E464E35B9AE8" name="T_INVEST">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>6B1E5C30-E560-CBBE-F7F0-36E679FD42C4</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_OPERACAO_cd_operacao" id="C250EF27-904C-C3FA-3FF2-0273273BCD28">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>ECCD6C42-EA1F-8244-F00B-23F6064375C0</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4C831A8-A0ED-C9B9-079D-21DC8A7F5854" referredColumn="D0A046C4-55C3-032E-8FB6-CA3329CE539A"/>
+</associations>
+</Column>
+<Column name="T_CATEG_INVEST_cd_categ_invest" id="D92DB288-AB4C-4D9A-6443-D96C9EFD2850">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>C4288213-6015-A22B-B13A-C88AEEC14692</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE9313A9-CF84-0A8B-A9F4-BC57E4610B5E" referredColumn="45282B67-443A-1A33-7916-641815642925"/>
+</associations>
+</Column>
+<Column name="T_BANCO_cd_banco" id="5DE0FE08-A5A4-0B14-B42D-67D9BA178C52">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>3DA9559D-132C-2A63-B29C-66CC86C4B40C</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C40AC50-CB68-9C69-960C-C87DA83611FA" referredColumn="3C8EE8B5-FB6A-266B-13B9-247C52A60C41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98F03081-EAB8-0778-9BEB-0C9EC672D400" name="T_INVEST_PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>817DAE67-CDAB-0A2F-A5EA-305639C07857</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C250EF27-904C-C3FA-3FF2-0273273BCD28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CCA507F-5A7A-4258-F181-96E08B5A50CE" name="T_INVEST_T_OPERACAO_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>F2E61255-DEC7-63B5-1A98-F49A2609A880</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C250EF27-904C-C3FA-3FF2-0273273BCD28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A323EE2D-43EB-BE7A-3666-28D3180B8D11" name="T_INVEST_T_BANCO_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>9D2124F4-76D1-0F77-38D3-E162B62A5ABC</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DE0FE08-A5A4-0B14-B42D-67D9BA178C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA1F5266-CED6-CFAD-D538-E3CB441852DC" name="T_INVEST_T_CATEG_INVEST_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>1877C955-2479-3FD8-DB42-CB3EF489AC85</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D92DB288-AB4C-4D9A-6443-D96C9EFD2850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

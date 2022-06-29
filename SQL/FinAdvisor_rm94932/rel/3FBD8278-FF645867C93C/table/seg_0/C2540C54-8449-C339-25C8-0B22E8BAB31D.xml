@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2540C54-8449-C339-25C8-0B22E8BAB31D" name="T_GASTO">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>0712093F-A206-2F37-EBD0-8CD26E7C1389</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_OPERACAO_cd_operacao" id="B89B713A-3284-DC67-124B-3B3616E042AF">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>63BF8E28-B019-F084-E843-E19637BEE2FA</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C3F2CF7-F471-2DC8-F605-E590C019B10C" referredColumn="D0A046C4-55C3-032E-8FB6-CA3329CE539A"/>
+</associations>
+</Column>
+<Column name="ds_forma_pgto" id="489E60BB-3297-AEDE-C086-AE193B71376A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>CC4A1DE8-F30A-27A6-6A90-DC1C3312F394</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CATEG_GASTO_cd_categ_gasto" id="CEA1C48B-5104-D63D-563F-952114492E59">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>75CEE08C-9385-D6EE-3226-22965D961ECB</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B68A8461-A539-EB7E-D063-68A6BCE906DE" referredColumn="D530CFA4-096E-8F22-AEDB-A0C69B767A88"/>
+</associations>
+</Column>
+<Column name="T_LOJA_cd_loja" id="FA227D93-4EFA-E202-D6F6-10DF52ECA662">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>01DAC036-04B0-B4DC-A8B3-61D0A8F76155</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B01455A-58F1-9918-D24C-D7A8E706D1EF" referredColumn="4C4DC130-911D-433E-BF7A-625D6C51E0B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2F1D16B-4FF4-F8D6-C5D0-28779226CDA4" name="T_GASTO_PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>E11A99E9-FACC-EC44-0AB2-A5F3DE94D4EC</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89B713A-3284-DC67-124B-3B3616E042AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC37EC27-9CA2-8438-D714-049772E611F3" name="T_GASTO_T_OPERACAO_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>A2EDF5E3-DDC7-B849-FDBC-462D7678A780</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89B713A-3284-DC67-124B-3B3616E042AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86DE97A0-ECD7-903B-1B2E-40CB56A80667" name="T_GASTO_T_CATEG_GASTO_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>FF95400E-E589-A54D-BBCB-2E4CEC955991</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA1C48B-5104-D63D-563F-952114492E59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9F22B11-0636-7A46-B08B-590FDDEB9891" name="T_GASTO_T_LOJA_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>A8D01A70-9170-1216-0282-9853ACA386A4</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA227D93-4EFA-E202-D6F6-10DF52ECA662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

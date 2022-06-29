@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12857A11-4ACC-3364-CF42-D17970DB1CA7" name="T_TIPO_OPER">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:58:09 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_oper" id="F6D9F51A-CEDC-F375-9C06-D87D490FF04B">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:58:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[entrada/saida
+]]></commentInRDBMS>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_oper" id="60F1BDF5-DF29-D1C2-E453-FED46FDA830A">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:58:27 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCE6D44D-1F09-9C36-4230-FAB1E997D09A" name="T_TIPO_OPER PK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:01:55 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F6D9F51A-CEDC-F375-9C06-D87D490FF04B</newElementsIDs>
+<usedAttributes>
+<attributeRef>F6D9F51A-CEDC-F375-9C06-D87D490FF04B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

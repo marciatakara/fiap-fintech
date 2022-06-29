@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B68A8461-A539-EB7E-D063-68A6BCE906DE" containerWithKeyObject="C2540C54-8449-C339-25C8-0B22E8BAB31D" localFKIndex="86DE97A0-ECD7-903B-1B2E-40CB56A80667" name="T_GASTO_T_CATEG_GASTO_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>FF95400E-E589-A54D-BBCB-2E4CEC955991</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<referredTableLongName>T_CATEG_GASTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5602846-0C5D-F55E-DCDA-916E9FE823DF</referredTableID>
+<keyObject>115D259F-F8CD-D41F-C8C4-BE78DE0909F2</keyObject>
+<referredKeyID>115D259F-F8CD-D41F-C8C4-BE78DE0909F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_categ_gasto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

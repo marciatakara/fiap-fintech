@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55951CB7-CF32-9D4A-4B8B-A8394B57568E" containerWithKeyObject="15C7EE6C-F37A-4B19-4093-548692EF0BAF" localFKIndex="44BD78FF-24D1-C480-6BB1-1FF42D44B23A" name="T_OPERACAO_T_TIPO_OPER_FK">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-20 13:54:59 UTC</createdTime>
+<generatorID>F7B2C1E6-12E9-1050-8B38-17B406AFD076</generatorID>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<referredTableLongName>T_TIPO_OPER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FED6332-6A9D-1208-19D1-5008CB3934CC</referredTableID>
+<keyObject>D349D864-6635-0F3D-78AA-677F2DA53D81</keyObject>
+<referredKeyID>D349D864-6635-0F3D-78AA-677F2DA53D81</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_oper</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

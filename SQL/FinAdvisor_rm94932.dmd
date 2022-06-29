@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FinAdvisor_rm94932" id="4E60A6AE-411F-14CA-C3E7-8123DDC608BD" version="3.5">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 13:28:48 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4E60A6AE-411F-14CA-C3E7-8123DDC608BD</designId>
+</OSDM_Design>

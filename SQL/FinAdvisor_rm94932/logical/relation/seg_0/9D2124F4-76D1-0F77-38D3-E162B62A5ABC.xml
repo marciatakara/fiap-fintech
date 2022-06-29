@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vincular" directorySegmentName="seg_0" id="9D2124F4-76D1-0F77-38D3-E162B62A5ABC">
+<createdBy>marci</createdBy>
+<createdTime>2022-05-17 14:36:59 UTC</createdTime>
+<ownerDesignName>FinAdvisor_rm94932</ownerDesignName>
+<engineerTo>
+<item key="3FBD8278-D769-D9D0-36ED-FF645867C93C" value="true"/>
+</engineerTo>
+<sourcePk>00D94CBE-1BCA-9C5D-1532-2A8A59DBC1D7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BFD7FEC-084F-66C2-77E4-624B24ED9A28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B1E5C30-E560-CBBE-F7F0-36E679FD42C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
